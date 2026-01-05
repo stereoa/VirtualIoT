@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace VirtualIoT.Models.Virtual
+﻿namespace VirtualIoT.Models.Virtual.Sensors
 {
     public class VirtualTemperatureSensor : IVirtualSensor
     {

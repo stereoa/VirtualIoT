@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace VirtualIoT.Models.Virtual
+﻿namespace VirtualIoT.Models.Virtual.Sensors
 {
     public class VirtualHumiditySensor : IVirtualSensor
     {
