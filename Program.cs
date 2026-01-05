@@ -6,7 +6,7 @@ class Program
 {
     static async Task Main()
     {
-        var mqtt = new MqttService();
+        var mqtt = new MqttService("test.mosquitto.org", 1883);
 
         var device = new VirtualDevice("device1", mqtt);
         device.AddSensor(new VirtualTemperatureSensor());
